@@ -1,6 +1,6 @@
 <?php
 $number1 = 10;
-$number2 = 20;
+$number2 = 5;
 
 if ($number1 - $number2 > 0) {
 	echo 'number1 is bigger than number2.';
