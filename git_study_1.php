@@ -6,10 +6,10 @@ $numbers = array(
 );
 
 foreach ($numbers as $number) {
-	if (is_int($number)) {
-		echo $number . ' is integer.' . '<br>';
+	if (is_float($number)) {
+		echo $number . ' is decimal number.' . '<br>';
 	} else {
-		echo $number . ' is not integer.' . '<br>';
+		echo $number . ' is not decimal number.' . '<br>';
 	}
 }
 ?>
