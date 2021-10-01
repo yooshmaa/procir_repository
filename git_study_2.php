@@ -1,11 +1,11 @@
 <?php
 $fruits = array(
-	'apple' => 'リンゴ',
-	'orage' => 'オレンジ',
-	'grapes' => 'ブドウ',
+	'apple' => 'pomme',
+	'orange' => 'orange',
+	'grapes' => 'raisins',
 );
 
 foreach ($fruits as $key => $value) {
-	echo $key . ' is ' . $value . ' in Japanese.' . '<br>';
+	echo $key . ' is ' . $value . ' in French.' . '<br>';
 }
 ?>
