@@ -1,11 +1,11 @@
 <?php
 $fruits = array(
-	'apple' => 'pomme',
-	'orange' => 'orange',
-	'grapes' => 'raisins',
+	'apple' => 'manzana',
+	'orange' => 'naranja',
+	'grapes' => 'uva',
 );
 
 foreach ($fruits as $key => $value) {
-	echo $key . ' is ' . $value . ' in French.' . '<br>';
+	echo $key . ' is ' . $value . ' in Spanish.' . '<br>';
 }
 ?>
